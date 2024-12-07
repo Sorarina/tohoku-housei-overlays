@@ -3,7 +3,7 @@ const staticTranslationMap = {
         mainCastersTitle: 'Commentators',
         breakMainSupportUsTitle: 'Support us!',
         breakMainTimerTitle: 'Stream resumes',
-        breakInfoBarWelcome: 'Welcome to<span class="low-ink-small-logo"><img src="img/li-logo-break-no-text.png"></span><span class="lemon-milk">Low Ink!</span>'
+        breakInfoBarWelcome: 'イカ七大戦へ<span class="low-ink-small-logo"><img src="img/li-logo-break-no-text.png"></span><span class="lemon-milk">ようこそ!</span>'
     },
     EU_FR: {
         mainCastersTitle: '[FR] Commentators',
