@@ -1,8 +1,6 @@
 body {
-	background: radial-gradient(
-		var(--background-3) 0%,
-		var(--background-2) 100%
-	);
+	background: radial-gradient(var(--background-3) 0%,
+			var(--background-2) 100%);
 }
 
 .arrows-background {
@@ -15,24 +13,22 @@ body {
 	border-right: 10px solid var(--accent);
 }
 
-.arrows-background > .arrows {
+.arrows-background>.arrows {
 	position: absolute;
 	width: inherit;
 	height: inherit;
-	background-image: url("../../img/arrows-bg.png");
+	background-image: url("../../img/ika7daisen-graphic.png");
 	background-size: 3070px 2160px;
 	background-position-x: 0px;
 }
 
-.arrows-background > .gradient {
+.arrows-background>.gradient {
 	position: absolute;
 	width: inherit;
 	height: inherit;
 
-	background: radial-gradient(
-		transparent 60%,
-		var(--accent-alpha-15) 100%
-	);
+	background: radial-gradient(transparent 60%,
+			var(--accent-alpha-15) 100%);
 }
 
 span.pronoun {
@@ -49,5 +45,6 @@ span.pronoun {
 	height: 100vh;
 
 	position: absolute;
-	top: 0; left: 0;
+	top: 0;
+	left: 0;
 }
