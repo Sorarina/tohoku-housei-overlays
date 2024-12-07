@@ -28,164 +28,167 @@
 </head>
 
 <body>
-<div class="arrows-background">
-	<div class="arrows"></div>
-	<div class="gradient"></div>
-</div>
-
-<div class="scene main-scene">
-	<div class="side-logo flex-align-center">
-		<div class="brand">
-			<img src="img/li-logo-break-no-text.png">
-			<div>low ink</div>
-		</div>
+	<div class="arrows-background">
+		<div class="arrows"></div>
+		<div class="gradient"></div>
 	</div>
-	<div class="scene-content">
-		<div class="main-container">
-			<fitted-text class="main-container-title" id="main-flavor-text" text="Welcome to Low Ink!"
-						 max-width="975"></fitted-text>
-			<div class="line" id="above-music-line"></div>
-			<div class="music">
-				<div class="icon flex-align-center">
-					<i class="fas fa-music"></i>
+
+	<div class="scene main-scene">
+		<div class="side-logo flex-align-center">
+			<div class="brand">
+				<img src="img/li-logo-break-no-text.png">
+				<div>low ink</div>
+			</div>
+		</div>
+		<div class="scene-content">
+			<div class="main-container">
+				<fitted-text class="main-container-title" id="main-flavor-text" text="Welcome to Low Ink!"
+					max-width="975"></fitted-text>
+				<div class="line" id="above-music-line"></div>
+				<div class="music">
+					<div class="icon flex-align-center">
+						<i class="fas fa-music"></i>
+					</div>
+					<div class="text">
+						<fitted-text id="main-artist" text="Squid Sisters" max-width="900"></fitted-text>
+						<fitted-text id="main-song" text="Spicy Calamari Inkantation" max-width="900"></fitted-text>
+					</div>
 				</div>
-				<div class="text">
-					<fitted-text id="main-artist" text="Squid Sisters" max-width="900"></fitted-text>
-					<fitted-text id="main-song" text="Spicy Calamari Inkantation" max-width="900"></fitted-text>
+
+				<div class="next-round-timer">
+					<div class="title" data-tl-key="breakMainTimerTitle">Stream resumes</div>
+					<div class="line"></div>
+					<div class="count" id="next-round-minutes">in <span class="count-minutes">??</span> minutes</div>
+					<div class="times">
+						<span id="next-round-time-est">?? EST</span>, <span id="next-round-time-utc">?? UTC</span>
+					</div>
 				</div>
 			</div>
-
-			<div class="next-round-timer">
-				<div class="title" data-tl-key="breakMainTimerTitle">Stream resumes</div>
+			<div class="main-container">
+				<div class="main-container-title" data-tl-key="breakMainSupportUsTitle">Support us!</div>
 				<div class="line"></div>
-				<div class="count" id="next-round-minutes">in <span class="count-minutes">??</span> minutes</div>
-				<div class="times">
-					<span id="next-round-time-est">?? EST</span>, <span id="next-round-time-utc">?? UTC</span>
+				<div class="support-row">
+					<i class="fab fa-twitter"></i>
+					<span>@IPLSplatoon</span>
+				</div>
+				<div class="support-row">
+					<i class="fab fa-discord"></i>
+					<span>IPLabs.ink/discord</span>
+				</div>
+				<div class="support-row">
+					<i class="fab fa-patreon"></i>
+					<span>patreon.com/IPLSplatoon</span>
+				</div>
+				<div class="support-row">
+					<i class="fas fa-globe"></i>
+					<span>IPLabs.ink</span>
 				</div>
 			</div>
-		</div>
-		<div class="main-container">
-			<div class="main-container-title" data-tl-key="breakMainSupportUsTitle">Support us!</div>
-			<div class="line"></div>
-			<div class="support-row">
-				<i class="fab fa-twitter"></i>
-				<span>@IPLSplatoon</span>
-			</div>
-			<div class="support-row">
-				<i class="fab fa-discord"></i>
-				<span>IPLabs.ink/discord</span>
-			</div>
-			<div class="support-row">
-				<i class="fab fa-patreon"></i>
-				<span>patreon.com/IPLSplatoon</span>
-			</div>
-			<div class="support-row">
-				<i class="fas fa-globe"></i>
-				<span>IPLabs.ink</span>
-			</div>
-		</div>
-		<img src="img/ipl-powered-reverse.png">
-	</div>
-</div>
-
-<div class="info-bar-wrapper flex-align-center">
-	<div class="top-info-bar-accent"></div>
-	<div class="top-info-bar-background"></div>
-
-	<div class="top-info-bar flex-align-center">
-		<div class="info-row info-row-welcome flex-align-center" data-tl-key="breakInfoBarWelcome" data-tl-use-inner-html>
-			Welcome to<span class="low-ink-small-logo"><img src="img/li-logo-break-no-text.png"></span><span class="lemon-milk">Low Ink!</span>
-		</div>
-		<div class="info-row info-row-commentators flex-align-center">
-			<div class="commentators flex-align-center">
-				<i class="fas fa-microphone-alt"></i>&nbsp;<fitted-text id="info-row-casters-text" useInnerHTML
-																		text="Casters" max-width="1300"></fitted-text>
-			</div>
-			<div class="commentators flex-align-center">
-				<i class="fab fa-twitter"></i>&nbsp;<fitted-text id="info-row-casters-twitter-text" useInnerHTML
-																 text="Casters" max-width="1300"></fitted-text>
-			</div>
-		</div>
-		<div class="info-row info-row-music flex-align-center">
-			<i class="fas fa-music" id="info-row-music-icon"></i>&nbsp;<fitted-text id="info-row-music-text"
-																					text="Music"
-																					max-width="1300"></fitted-text>
+			<img src="img/ipl-powered-reverse.png">
 		</div>
 	</div>
-</div>
 
-<div class="scene teams-scene flex-align-center">
-	<div class="scene-content">
-		<div class="team flex-align-center">
-			<div class="accent"></div>
-			<div class="background"></div>
-			<div class="content-wrapper flex-align-center">
-				<div class="content first-team-content">
-					<fitted-text id="team-a-name" class="team-name" text="First Team!" max-width="445"></fitted-text>
-					<div class="teams-line"></div>
-					<div class="players" id="team-a-players">
+	<div class="info-bar-wrapper flex-align-center">
+		<div class="top-info-bar-accent"></div>
+		<div class="top-info-bar-background"></div>
 
-					</div>
-					<div class="team-image-wrapper flex-align-center">
-						<div class="team-image" id="team-a-image"></div>
+		<div class="top-info-bar flex-align-center">
+			<div class="info-row info-row-welcome flex-align-center" data-tl-key="breakInfoBarWelcome"
+				data-tl-use-inner-html>
+				Welcome to<span class="low-ink-small-logo"><img src="img/li-logo-break-no-text.png"></span><span
+					class="lemon-milk">Low Ink</span>
+			</div>
+			<div class="info-row info-row-commentators flex-align-center">
+				<div class="commentators flex-align-center">
+					<i class="fas fa-microphone-alt"></i>&nbsp;<fitted-text id="info-row-casters-text" useInnerHTML
+						text="Casters" max-width="1300"></fitted-text>
+				</div>
+				<div class="commentators flex-align-center">
+					<i class="fab fa-twitter"></i>&nbsp;<fitted-text id="info-row-casters-twitter-text" useInnerHTML
+						text="Casters" max-width="1300"></fitted-text>
+				</div>
+			</div>
+			<div class="info-row info-row-music flex-align-center">
+				<i class="fas fa-music" id="info-row-music-icon"></i>&nbsp;<fitted-text id="info-row-music-text"
+					text="Music" max-width="1300"></fitted-text>
+			</div>
+		</div>
+	</div>
+
+	<div class="scene teams-scene flex-align-center">
+		<div class="scene-content">
+			<div class="team flex-align-center">
+				<div class="accent"></div>
+				<div class="background"></div>
+				<div class="content-wrapper flex-align-center">
+					<div class="content first-team-content">
+						<fitted-text id="team-a-name" class="team-name" text="First Team!"
+							max-width="445"></fitted-text>
+						<div class="teams-line"></div>
+						<div class="players" id="team-a-players">
+
+						</div>
+						<div class="team-image-wrapper flex-align-center">
+							<div class="team-image" id="team-a-image"></div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="versus">VS</div>
-		<div class="team flex-align-center">
-			<div class="accent"></div>
-			<div class="background"></div>
-			<div class="content-wrapper flex-align-center">
-				<div class="content second-team-content">
-					<fitted-text id="team-b-name" class="team-name" text="Second Team!" max-width="445"></fitted-text>
-					<div class="teams-line"></div>
-					<div class="players" id="team-b-players">
+			<div class="versus">VS</div>
+			<div class="team flex-align-center">
+				<div class="accent"></div>
+				<div class="background"></div>
+				<div class="content-wrapper flex-align-center">
+					<div class="content second-team-content">
+						<fitted-text id="team-b-name" class="team-name" text="Second Team!"
+							max-width="445"></fitted-text>
+						<div class="teams-line"></div>
+						<div class="players" id="team-b-players">
 
-					</div>
-					<div class="team-image-wrapper flex-align-center">
-						<div class="team-image" id="team-b-image"></div>
+						</div>
+						<div class="team-image-wrapper flex-align-center">
+							<div class="team-image" id="team-b-image"></div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-</div>
 
-<div class="scene stages-scene flex-align-center">
-	<div class="stages-scoreboard">
-		<fitted-text id="team-a-name-scoreboard" max-width="400" text=""></fitted-text>
-		<div class="scores">
-			<fitted-text id="team-a-score-scoreboard" max-width="50" text="0"></fitted-text>
-			<div></div>
-			<fitted-text id="team-b-score-scoreboard" max-width="50" text="0"></fitted-text>
+	<div class="scene stages-scene flex-align-center">
+		<div class="stages-scoreboard">
+			<fitted-text id="team-a-name-scoreboard" max-width="400" text=""></fitted-text>
+			<div class="scores">
+				<fitted-text id="team-a-score-scoreboard" max-width="50" text="0"></fitted-text>
+				<div></div>
+				<fitted-text id="team-b-score-scoreboard" max-width="50" text="0"></fitted-text>
+			</div>
+			<fitted-text id="team-b-name-scoreboard" max-width="400" text=""></fitted-text>
 		</div>
-		<fitted-text id="team-b-name-scoreboard" max-width="400" text=""></fitted-text>
+		<div class="stages-grid" id="stages-grid">
+
+		</div>
 	</div>
-	<div class="stages-grid" id="stages-grid">
 
-	</div>
-</div>
+	<script src="../node_modules/lodash/lodash.min.js"></script>
+	<script src="../node_modules/luxon/build/global/luxon.js"></script>
+	<script src="../node_modules/fitted-text/dist/fitted-text.js"></script>
+	<script src="../node_modules/gsap/dist/gsap.js"></script>
 
-<script src="../node_modules/lodash/lodash.min.js"></script>
-<script src="../node_modules/luxon/build/global/luxon.js"></script>
-<script src="../node_modules/fitted-text/dist/fitted-text.js"></script>
-<script src="../node_modules/gsap/dist/gsap.js"></script>
-
-<script src="scripts/globals.js"></script>
-<script src="scripts/replicants.js"></script>
-<script src="scripts/break/music.js"></script>
-<script src="scripts/break/mainFlavorText.js"></script>
-<script src="scripts/break/nextStageTimer.js"></script>
-<script src="scripts/break/mainInfoSwitcher.js"></script>
-<script src="scripts/break/casters.js"></script>
-<script src="scripts/break/teams.js"></script>
-<script src="scripts/break/topInfoBar.js"></script>
-<script src="scripts/break/sceneSwitcher.js"></script>
-<script src="scripts/break/stages.js"></script>
-<script src="scripts/break/background.js"></script>
-<script src="scripts/RGBMode.js"></script>
-<script src="scripts/i18n.js"></script>
+	<script src="scripts/globals.js"></script>
+	<script src="scripts/replicants.js"></script>
+	<script src="scripts/break/music.js"></script>
+	<script src="scripts/break/mainFlavorText.js"></script>
+	<script src="scripts/break/nextStageTimer.js"></script>
+	<script src="scripts/break/mainInfoSwitcher.js"></script>
+	<script src="scripts/break/casters.js"></script>
+	<script src="scripts/break/teams.js"></script>
+	<script src="scripts/break/topInfoBar.js"></script>
+	<script src="scripts/break/sceneSwitcher.js"></script>
+	<script src="scripts/break/stages.js"></script>
+	<script src="scripts/break/background.js"></script>
+	<script src="scripts/RGBMode.js"></script>
+	<script src="scripts/i18n.js"></script>
 </body>
 
 </html>
