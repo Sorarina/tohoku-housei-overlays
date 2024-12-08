@@ -1,10 +1,5 @@
 {
-<<<<<<< HEAD
-    "name": "ika7daisen-overlays", 
-=======
     "name": "ika7daisen-overlays",
->>>>>>> 9a8e18a19dfb1838fde62a0443174f63a92a076b
-    "version": "0.0.0",
     "compatibleDashboardVersion": "^4.4.0",
     "compatibleGameVersions": [
         "SPLATOON_2",
