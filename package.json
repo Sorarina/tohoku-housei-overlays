@@ -1,5 +1,5 @@
 {
-    "name": "ika7daisen-overlays", //ここをoverlaysの名前に変えないと無理
+    "name": "ika7daisen-overlays",
     "version": "0.0.0",
     "compatibleDashboardVersion": "^4.4.0",
     "compatibleGameVersions": [
