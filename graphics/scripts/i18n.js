@@ -3,7 +3,7 @@ const staticTranslationMap = {
         mainCastersTitle: 'Commentators',
         breakMainSupportUsTitle: 'Support us!',
         breakMainTimerTitle: 'Stream resumes',
-        breakInfoBarWelcome: 'イカ七大戦へ<span class="low-ink-small-logo"><img src="img/li-logo-break-no-text.png"></span><span class="lemon-milk">ようこそ!</span>'//上のバナー（一瞬のあとの一定時間）
+        breakInfoBarWelcome: 'イカ七大戦<span i class="fa-brands fa-x-twitter"></i>&nbsp;</span><span class="lemon-milk">@7daisen_spla</span>'//上のバナー（一瞬のあとの一定時間）
     },
     EU_FR: {
         mainCastersTitle: '[FR] Commentators',
