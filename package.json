@@ -1,8 +1,11 @@
 {
-    "name": "low-ink-overlays",
+    "name": "ika7daisen-overlays", //ここをoverlaysの名前に変えないと無理
     "version": "0.0.0",
     "compatibleDashboardVersion": "^4.4.0",
-    "compatibleGameVersions": ["SPLATOON_2", "SPLATOON_3"],
+    "compatibleGameVersions": [
+        "SPLATOON_2",
+        "SPLATOON_3"
+    ],
     "description": "",
     "homepage": "https://github.com/inkfarer/low-ink-overlays",
     "author": {
@@ -48,7 +51,7 @@
         "gsap": "3.6.1",
         "lodash": "^4.17.21",
         "luxon": "^1.26.0",
-		"fitted-text": "^1.0.0"
+        "fitted-text": "^1.0.0"
     },
     "devDependencies": {
         "ts-nodecg": "^0.3.1"
