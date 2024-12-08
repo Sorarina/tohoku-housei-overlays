@@ -2,7 +2,7 @@
 	align-items: unset;
 }
 
-.scene.teams-scene > .scene-content {
+.scene.teams-scene>.scene-content {
 	width: 1350px;
 	height: 670px;
 	display: grid;
@@ -12,11 +12,11 @@
 	bottom: 135px;
 }
 
-.scene.teams-scene > .scene-content > .team {
+.scene.teams-scene>.scene-content>.team {
 	position: relative;
 }
 
-.scene.teams-scene > .scene-content > .team > .accent {
+.scene.teams-scene>.scene-content>.team>.accent {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
@@ -27,7 +27,7 @@
 	filter: drop-shadow(0 0 5px var(--accent));
 }
 
-.scene.teams-scene > .scene-content > .team > .background {
+.scene.teams-scene>.scene-content>.team>.background {
 	width: 100%;
 	height: 100%;
 	border-radius: 10px;
@@ -37,14 +37,14 @@
 	background-color: var(--background-1);
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper {
+.scene.teams-scene>.scene-content>.team>.content-wrapper {
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	overflow: hidden;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content {
 	width: 513px;
 	height: 650px;
 	border-radius: 10px;
@@ -57,27 +57,27 @@
 	flex-direction: column;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content.first-team-content {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content.first-team-content {
 	align-items: flex-end;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content > fitted-text.team-name {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content>fitted-text.team-name {
 	font-size: 60px;
 	margin: 20px 35px 30px;
 	font-weight: 700;
 	height: 73px;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content > .players > fitted-text.team-player {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content>.players>fitted-text.team-player {
 	font-size: 40px;
 	font-weight: 600;
 	margin: 10px 35px;
 	height: 40px;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content > .players {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content>.players {
 	margin-top: 15px;
-	height: 480px;
+	height: 600px;
 	overflow: hidden;
 	display: flex;
 	flex-direction: column;
@@ -87,7 +87,7 @@
 	align-items: flex-end;
 }
 
-.scene.teams-scene > .scene-content > .versus {
+.scene.teams-scene>.scene-content>.versus {
 	color: white;
 	text-align: center;
 	place-self: center;
@@ -103,13 +103,13 @@ div.teams-line {
 	background-color: var(--accent);
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content > .team-image-wrapper {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content>.team-image-wrapper {
 	width: 100%;
 	height: inherit;
 	position: absolute;
 }
 
-.scene.teams-scene > .scene-content > .team > .content-wrapper > .content > .team-image-wrapper > .team-image {
+.scene.teams-scene>.scene-content>.team>.content-wrapper>.content>.team-image-wrapper>.team-image {
 	width: 300px;
 	height: 300px;
 	background-size: cover;
