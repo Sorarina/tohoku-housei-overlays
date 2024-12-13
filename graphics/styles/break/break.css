@@ -19,7 +19,7 @@ body {
 	height: inherit;
 	background-image: url("../../img/ika7daisen-background.png");
 	background-size: 1920px 1080px;
-	background-position-x: 0px;
+	background-position-x: center;
 }
 
 .arrows-background>.gradient {
