@@ -59,7 +59,7 @@
 	width: 100%;
 	position: absolute;
 
-	background: linear-gradient(0deg, var(--background-1) 1%, rgba(25, 25, 25, 0.75) 30%, transparent 60%);
+	background: var(--background-1);
 }
 
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-winner-wrapper>.stage-winner {
