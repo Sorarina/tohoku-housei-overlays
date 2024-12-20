@@ -235,8 +235,8 @@ function setGameWinner(index, winner, oldWinner) {
 		}
 	}
 
-	/*tl.add(gsap.to(image, { duration: 0.35, filter: `saturate(${winnerSaturation})` }))
-		.add(gsap.to(winnerElem, { duration: 0.35, opacity: winnerOpacity }), '-=0.35');*/
+	tl//.add(gsap.to(image, { duration: 0.35, filter: `saturate(${winnerSaturation})` }))
+		.add(gsap.to(winnerElem, { duration: 0.35, opacity: winnerOpacity }), '-=0.35');
 }
 
 function setWinnerName(index, name) {
