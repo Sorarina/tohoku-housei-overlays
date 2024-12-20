@@ -63,16 +63,12 @@
 }
 
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-winner-wrapper>.stage-winner {
-	color: white;
+	color: #191919;
 	text-align: right;
 	position: relative;
 	font-weight: 600;
 	margin: 10px;
-	text-shadow:
-		1px 1px 2px black,
-		-1px -1px 2px black,
-		1px -1px 2px black,
-		-1px 1px 2px black;
+
 }
 
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-winner-wrapper {
@@ -88,14 +84,9 @@
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-info {
 	position: absolute;
 	bottom: 0;
-	color: white;
+	color: #191919;
 	margin: 10px;
 	width: calc(100% - 20px);
-	text-shadow:
-		1px 1px 2px black,
-		-1px -1px 2px black,
-		1px -1px 2px black,
-		-1px 1px 2px black;
 }
 
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-info>.stage-mode {
