@@ -3,7 +3,8 @@ const staticTranslationMap = {
         mainCastersTitle: 'Commentators',
         breakMainSupportUsTitle: 'Support us!',
         breakMainTimerTitle: 'Stream resumes',
-        breakInfoBarWelcome: 'イカ七大戦&nbsp;<span i class="fa-brands fa-x-twitter"></i></span><span max-width="1300">@7daisen_spla</span>'//上のバナー（一瞬のあとの一定時間）
+        breakInfoBarWelcome: 'TonePaints&nbsp;<span i class="fa-brands fa-x-twitter"></i></span><span max-width="1300">@tohoku_spl</span>',//上のバナー（一瞬のあとの一定時間）
+        breakInfoBarWelcome_2: '法政大学スプラサークル&nbsp;<span i class="fa-brands fa-x-twitter"></i></span><span max-width="1300">@hosei_spl</span>'
     },
     EU_FR: {
         mainCastersTitle: '[FR] Commentators',
