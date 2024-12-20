@@ -35,7 +35,7 @@ body {
 
 span.pronoun {
 	background-color: var(--accent);
-	color: white;
+	color: #191919;
 	padding: 1px 5px;
 	font-size: 20px;
 	font-weight: 400;
