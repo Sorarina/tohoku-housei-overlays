@@ -69,11 +69,11 @@ function updateScoreboardName(team, newName) {
 	const teamNameElem = document.getElementById(`team-${team}-name-scoreboard`);
 
 	sbTls[team].add(gsap.to(teamNameElem, {
-		opacity: 0, duration: 0.35, onComplete: function() {
+		opacity: 0, duration: 0.35, onComplete: function () {
 			teamNameElem.setAttribute('text', addDots(newName));
 		}
 	}))
-		.add(gsap.to(teamNameElem, {opacity: 1, duration: 0.35}));
+		.add(gsap.to(teamNameElem, { opacity: 1, duration: 0.35 }));
 }
 
 async function updateSingleStage(index, game) {
@@ -89,27 +89,27 @@ async function updateSingleStage(index, game) {
 		duration: 0.75,
 		ease: Power3.easeIn
 	}))
-	.add(gsap.to(`#stage_${index} > .accent`, {
-		height: 0,
-		duration: 0.75,
-		ease: Power3.easeIn,
-		onComplete: () => {
-			imageElem.style.backgroundImage = `url('${stageImagePath}')`;
-			modeTextElem.setAttribute('text', localeInfo.value.modes[game.mode]);
-			stageNameElem.innerText = localeInfo.value.stages[game.stage];
-		}
-	}), '-=0.55');
+		.add(gsap.to(`#stage_${index} > .accent`, {
+			height: 0,
+			duration: 0.75,
+			ease: Power3.easeIn,
+			onComplete: () => {
+				imageElem.style.backgroundImage = `url('${stageImagePath}')`;
+				modeTextElem.setAttribute('text', localeInfo.value.modes[game.mode]);
+				stageNameElem.innerText = localeInfo.value.stages[game.stage];
+			}
+		}), '-=0.55');
 
 	winnerTls[index].add(gsap.to(`#stage_${index} > .accent`, {
 		height: 700,
 		duration: 0.75,
 		ease: Power3.easeOut,
 	}), '+=0.25')
-	.add(gsap.to(`#stage_${index} > .stage-content`, {
-		height: 700,
-		duration: 0.75,
-		ease: Power3.easeOut,
-	}), '-=0.55');
+		.add(gsap.to(`#stage_${index} > .stage-content`, {
+			height: 700,
+			duration: 0.75,
+			ease: Power3.easeOut,
+		}), '-=0.55');
 }
 
 let isFirstStageUpdate = true;
@@ -235,8 +235,8 @@ function setGameWinner(index, winner, oldWinner) {
 		}
 	}
 
-	tl.add(gsap.to(image, {duration: 0.35, filter: `saturate(${winnerSaturation})`}))
-		.add(gsap.to(winnerElem, {duration: 0.35, opacity: winnerOpacity}), '-=0.35');
+	/*tl.add(gsap.to(image, { duration: 0.35, filter: `saturate(${winnerSaturation})` }))
+		.add(gsap.to(winnerElem, { duration: 0.35, opacity: winnerOpacity }), '-=0.35');*/
 }
 
 function setWinnerName(index, name) {
@@ -253,5 +253,5 @@ function setWinnerName(index, name) {
 			winnerTextElem.innerText = addDots(name);
 		}
 	}))
-		.add(gsap.to(winnerTextElem, {opacity: 1, duration: 0.35}));
+		.add(gsap.to(winnerTextElem, { opacity: 1, duration: 0.35 }));
 }
