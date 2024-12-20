@@ -39,8 +39,8 @@
 	background-color: var(--background-1);
 }
 
-.top-info-bar > .info-row {
-	color: white;
+.top-info-bar>.info-row {
+	color: #191919;
 	position: absolute;
 	width: 1400px;
 }
@@ -55,21 +55,21 @@
 	font-weight: 700;
 }
 
-.info-row-welcome > .lemon-milk {
+.info-row-welcome>.lemon-milk {
 	font-family: "Lemon/Milk", sans-serif;
 	font-weight: bold;
 }
 
-.info-row-welcome > .low-ink-small-logo > img {
+.info-row-welcome>.low-ink-small-logo>img {
 	height: 65px;
 	margin: 10px 15px 0;
 	filter: drop-shadow(0 0 3px var(--accent));
 }
 
-.info-row-commentators > .commentators > i {
+.info-row-commentators>.commentators>i {
 	font-size: 50px;
 }
 
-.info-row-commentators > .commentators {
+.info-row-commentators>.commentators {
 	position: absolute;
 }
