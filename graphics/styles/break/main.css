@@ -38,7 +38,7 @@
 	justify-content: center;
 	flex-direction: column;
 
-	color: var(--text-color);
+	color: white;
 }
 
 .scene.main-scene>.scene-content>img {
