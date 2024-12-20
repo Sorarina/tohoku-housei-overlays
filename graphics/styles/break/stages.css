@@ -83,7 +83,7 @@
 .scene.stages-scene>.stages-grid>.stage>.stage-content>.stage-text>.stage-info {
 	position: absolute;
 	bottom: 0;
-	color: #191919;
+	color: white;
 	margin: 10px;
 	width: calc(100% - 20px);
 }
