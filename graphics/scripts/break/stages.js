@@ -219,7 +219,7 @@ function setGameWinner(index, winner, oldWinner) {
 	const tl = winnerTls[index];
 
 	const winnerOpacity = winner === 'none' ? 0 : 1;
-	const winnerSaturation = winner === 'none' ? 1 : 0.15;
+	const winnerSaturation = winner === 'none' ? 1 : 1;
 	let winnerName;
 	if (winner === 'alpha') {
 		winnerName = addDots(activeRound.value.teamA.name)
