@@ -235,7 +235,7 @@ function setGameWinner(index, winner, oldWinner) {
 		}
 	}
 
-	tl//.add(gsap.to(image, { duration: 0.35, filter: `saturate(${winnerSaturation})` }))
+	tl.add(gsap.to(image, { duration: 0.35, filter: `saturate(${winnerSaturation})` }))
 		.add(gsap.to(winnerElem, { duration: 0.35, opacity: winnerOpacity }), '-=0.35');
 }
 
